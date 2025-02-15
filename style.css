@@ -258,6 +258,7 @@ body {
   position: relative;
   height: 100vh; /* ارتفاع الحاوية بحجم الشاشة */
   overflow: hidden; /* إخفاء أي جزء زائد من الصور */
+  z-index: -1;
 }
 .img1 {
   position: absolute;
