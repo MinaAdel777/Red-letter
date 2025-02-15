@@ -256,7 +256,7 @@ body {
 }
 .images {
   position: relative;
-  height: 100vh; /* ارتفاع الحاوية بحجم الشاشة */
+  height: 100dvh; /* ارتفاع الحاوية بحجم الشاشة */
   overflow: hidden; /* إخفاء أي جزء زائد من الصور */
   z-index: -1;
 }
@@ -288,5 +288,6 @@ body {
   color: #000;
   font-family: "Roboto", serif;
   user-select: none;
+  z-index: -1;
   background-color: rgb(255, 255, 255);
 }
