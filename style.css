@@ -9,6 +9,7 @@
 body {
   font-family: "Roboto", serif;
   background-color: #ffc6c6;
+  overflow-x: hidden;
 }
 
 .card-wrapper {
