@@ -9,7 +9,6 @@
 body {
   font-family: "Roboto", serif;
   background-color: #ffc6c6;
-  overflow-x: hidden;
 }
 
 .card-wrapper {
@@ -255,12 +254,16 @@ body {
   opacity: 1;
   transition: opacity 2s ease;
 }
-
+.images {
+  position: relative;
+  height: 100vh; /* ارتفاع الحاوية بحجم الشاشة */
+  overflow: hidden; /* إخفاء أي جزء زائد من الصور */
+}
 .img1 {
   position: absolute;
   top: 20%;
   left: 50%;
-  width: 600px;
+  width: 500px;
   transform: translate(-50%, -50%);
 }
 
